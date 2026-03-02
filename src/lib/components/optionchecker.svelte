@@ -1,12 +1,13 @@
 <script lang="ts">
     const {label, items}:{label:string, items:string[]} = $props()
     let value = $state("")
+    const sortedItems = items.sort()
     //let distance = $derived(leven(value.toLowerCase(), label.toLowerCase(), {maxDistance: 3}))
 </script>
 
 <div style="display: flex;">
     <select bind:value={value}>
-        {#each items as item}
+        {#each sortedItems as item}
             <option value={item}>{item}</option>
         {/each}
     </select>
