@@ -1,0 +1,42 @@
+{
+    "cerebral_surface_sagittal_lateral": {
+        "title": "Cerebral surface sagittal lateral",
+        "path": "/src/lib/assets/diagrams/cerebral_surface_sagittal_lateral.png",
+        "labels": [
+            "Central sulcus",
+            "Postcentral gyrus",
+            "Postcentral sulcus",
+            "Superior parietal lobule",
+            "Intraparietal sulcus",
+            "Inferior parietal lobule",
+            "Supramarginal gyrus",
+            "Angular gyrus",
+            "Occipital gyri",
+            "Occipital pole",
+            "Preoccipiral notch",
+            "Cerebellum",
+            "Spinal cord",
+            "Medulla",
+            "Pons",
+            "Inferior temporal gyrus",
+            "Middle temporal sulcus",
+            "Middle temporal gyrus",
+            "Superior temporal sulcus",
+            "Superior temporal gyrus",
+            "Temporal pole",
+            "Sylvian fissure",
+            "Orbital gyri",
+            "Frontal pole",
+            "Pars obitalis",
+            "Pars triangularis",
+            "Pars opercularis",
+            "Inferior frontal gyrus",
+            "Inferior frontal sulcus",
+            "Moddle frontal gyrus",
+            "Superior frontal sulcus",
+            "Superior frontal gyrus",
+            "Precentral sulcus",
+            "Precentral gyrus"
+        ]
+    }
+}
