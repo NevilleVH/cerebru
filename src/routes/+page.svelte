@@ -2,6 +2,7 @@
 	import diagrams from '$lib/assets/diagrams.json';
 	import FreeChecker from '$lib/components/freechecker.svelte';
     import OptionChecker from '$lib/components/optionchecker.svelte';
+    import {base} from "$app/paths"
 	// const imageModules = import.meta.glob('$lib/assets/diagrams/*.{png,svg}', {
 	// 	eager: true,
 	// 	query: {
@@ -48,6 +49,6 @@
 				{/each}
 			</div>
 		</div>
-		<div><img src={selected.path} /></div>
+		<div><img alt={selected.title} src={base + selected.path} /></div>
 	</div>
 {/if}
