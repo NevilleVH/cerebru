@@ -1,7 +1,7 @@
 <script lang="ts">
     const {label, items}:{label:string, items:string[]} = $props()
     let value = $state("")
-    const sortedItems = items.sort()
+    const sortedItems = items.toSorted()
     //let distance = $derived(leven(value.toLowerCase(), label.toLowerCase(), {maxDistance: 3}))
 </script>
 
