@@ -34,7 +34,8 @@
 {#if selected}
 	<div style="display: flex">
 		<div>
-			<div style="height: 90vh; overflow-y:scroll; border:solid 1px">
+			{#key selected.path}
+				<div style="height: 90vh; overflow-y:scroll; border:solid 1px">
 				{#each selected.labels as label, i}
 					<div style="display: flex; justify-content: end; padding: 4px; gap: 4px">
 						<div>{i + 1 + '.'}</div>
@@ -46,6 +47,7 @@
 					</div>
 				{/each}
 			</div>
+			{/key}
 		</div>
 		<div><img alt={selected.title} src={selected.img} /></div>
 	</div>
