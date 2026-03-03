@@ -5,7 +5,7 @@
     //let distance = $derived(leven(value.toLowerCase(), label.toLowerCase(), {maxDistance: 3}))
 </script>
 
-<div style="display: flex;">
+<div style="display: flex; gap: 2px">
     <input bind:value={value}>
     <!-- <div>{distance > 2 ? "❌": "✅"}</div> -->
     <div>{label.toLowerCase() !== value.toLowerCase() ? "❌": "✅"}</div>
