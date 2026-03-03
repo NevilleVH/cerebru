@@ -20,26 +20,26 @@
 
 <div style="width:100vw; padding: 4px;">
 	<div style="display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 4px">
-	<div>
-		Diagram:
-		<select>
-			{#each diagramInfo as info}
-				<option onclick={() => (selected = info)}>{info.title}</option>
-			{/each}
-		</select>
-	</div>
-	<div>
-		Input type:
-		<select bind:value={inputType}>
-			<option value="free">Free</option>
-			<option value="options">Options</option>
-		</select>
-	</div>
+		<div>
+			Diagram:
+			<select>
+				{#each diagramInfo as info}
+					<option onclick={() => (selected = info)}>{info.title}</option>
+				{/each}
+			</select>
+		</div>
+		<div>
+			Input type:
+			<select bind:value={inputType}>
+				<option value="free">Free</option>
+				<option value="options">Options</option>
+			</select>
+		</div>
 	</div>
 	{#if selected}
-		<div id="container" style="display: flex;">
-			<div id="labels-container">
-				{#key selected.path}
+		{#key selected.path}
+			<div id="container" style="display: flex;">
+				<div id="labels-container">
 					<div id="labels" style="overflow-y:scroll; border:solid 1px; padding: 4px">
 						{#each selected.labels as label, i}
 							<div style="display: flex; justify-content: end; padding: 4px; gap: 4px">
@@ -52,12 +52,12 @@
 							</div>
 						{/each}
 					</div>
-				{/key}
+				</div>
+				<div id="diagram">
+					<img style="object-fit: contain;" alt={selected.title} src={selected.img} />
+				</div>
 			</div>
-			<div id="diagram">
-				<img style="object-fit: contain;" alt={selected.title} src={selected.img} />
-			</div>
-		</div>
+		{/key}
 	{/if}
 </div>
 
