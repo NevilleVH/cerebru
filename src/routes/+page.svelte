@@ -9,12 +9,14 @@
 		}
 	});
 	//import cerebral_surface_sagittal_lateral from "$lib/assets/cerebral_surface_sagittal_lateral.png"
-	const diagramInfo = Object.values(diagrams)
+	const diagramInfo = Object.entries(diagrams)
+		
+		.flatMap(([id, info]) =>
+			imageModules[info.path] ? [{ ...info, id, img: imageModules[info.path].default }] : []
+		)
 		.sort((a, b) => (a.title > b.title ? 1 : -1))
-		.flatMap((info) =>
-			imageModules[info.path] ? [{ ...info, img: imageModules[info.path].default }] : []
-		);
-	let selected = $state(diagramInfo[0]);
+	let selectedId = $state(diagramInfo[0].id)
+	let selected = $derived(diagramInfo.find(info => info.id === selectedId));
 	let inputType = $state<'free' | 'options'>('free');
 </script>
 
@@ -22,9 +24,9 @@
 	<div style="display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 4px">
 		<div>
 			Diagram:
-			<select>
+			<select bind:value={selectedId}>
 				{#each diagramInfo as info}
-					<option onclick={() => (selected = info)}>{info.title}</option>
+					<option value={info.id}>{info.title}</option>
 				{/each}
 			</select>
 		</div>
@@ -37,7 +39,7 @@
 		</div>
 	</div>
 	{#if selected}
-		{#key selected.path}
+		{#key selected.id}
 			<div id="container" style="display: flex;">
 				<div id="labels-container">
 					<div id="labels" style="overflow-y:scroll; border:solid 1px; padding: 4px">
