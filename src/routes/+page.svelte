@@ -18,37 +18,73 @@
 	let inputType = $state<'free' | 'options'>('free');
 </script>
 
-<div style="padding: 4px;">
-	Diagram:
-	<select>
-		{#each diagramInfo as info}
-			<option onclick={() => (selected = info)}>{info.title}</option>
-		{/each}
-	</select>
-	Input type:
-	<select bind:value={inputType}>
-		<option value="free">Free</option>
-		<option value="options">Options</option>
-	</select>
-</div>
-{#if selected}
-	<div style="display: flex">
-		<div>
-			{#key selected.path}
-				<div style="height: 90vh; overflow-y:scroll; border:solid 1px">
-				{#each selected.labels as label, i}
-					<div style="display: flex; justify-content: end; padding: 4px; gap: 4px">
-						<div>{i + 1 + '.'}</div>
-						{#if inputType === 'free'}
-							<FreeChecker {label} />
-						{:else}
-							<OptionChecker {label} items={selected.labels} />
-						{/if}
-					</div>
-				{/each}
-			</div>
-			{/key}
-		</div>
-		<div><img alt={selected.title} src={selected.img} /></div>
+<div style="width:100vw; padding: 4px;">
+	<div style="display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 4px">
+	<div>
+		Diagram:
+		<select>
+			{#each diagramInfo as info}
+				<option onclick={() => (selected = info)}>{info.title}</option>
+			{/each}
+		</select>
 	</div>
-{/if}
+	<div>
+		Input type:
+		<select bind:value={inputType}>
+			<option value="free">Free</option>
+			<option value="options">Options</option>
+		</select>
+	</div>
+	</div>
+	{#if selected}
+		<div id="container" style="display: flex;">
+			<div id="labels-container">
+				{#key selected.path}
+					<div id="labels" style="overflow-y:scroll; border:solid 1px; padding: 4px">
+						{#each selected.labels as label, i}
+							<div style="display: flex; justify-content: end; padding: 4px; gap: 4px">
+								<div>{i + 1 + '.'}</div>
+								{#if inputType === 'free'}
+									<FreeChecker {label} />
+								{:else}
+									<OptionChecker {label} items={selected.labels} />
+								{/if}
+							</div>
+						{/each}
+					</div>
+				{/key}
+			</div>
+			<div id="diagram">
+				<img style="object-fit: contain;" alt={selected.title} src={selected.img} />
+			</div>
+		</div>
+	{/if}
+</div>
+
+<style>
+	#labels {
+		height: 80vh;
+	}
+
+	@media (orientation: portrait) {
+		img {
+			width: 100%;
+		}
+
+		#diagram {
+			order: 1;
+		}
+
+		#labels-container {
+			order: 2;
+		}
+
+		#container {
+			flex-wrap: wrap;
+		}
+
+		#labels {
+			height: 50vh;
+		}
+	}
+</style>
