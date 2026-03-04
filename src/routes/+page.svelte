@@ -40,7 +40,7 @@
 	</div>
 	{#if selected}
 		{#key selected.id}
-			<div id="container" style="display: flex;">
+			<div id="container" style="display: flex; width: 90vw">
 				<div id="labels-container">
 					<div id="labels" style="overflow-y:scroll; border:solid 1px; padding: 4px">
 						{#each selected.labels as label, i}
@@ -55,8 +55,8 @@
 						{/each}
 					</div>
 				</div>
-				<div id="diagram">
-					<img style="object-fit: contain;" alt={selected.title} src={selected.img} />
+				<div id="diagram" style="width: 100%">
+					<img style="object-fit: contain; width: 100%" alt={selected.title} src={selected.img} />
 				</div>
 			</div>
 		{/key}
@@ -79,9 +79,18 @@
 
 		#labels-container {
 			order: 2;
+			width: 100%;
+		}
+
+		#labels {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
 		}
 
 		#container {
+			justify-content: center;
 			flex-wrap: wrap;
 		}
 
