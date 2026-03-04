@@ -76,5 +76,29 @@
             "Precentral sulcus",
             "Precentral gyrus"
         ]
+    },
+    "axial_inferior": {
+        "title": "Axial inferior",
+        "path": "/src/lib/assets/diagrams/axial_inferior.svg",
+        "labels": [
+            "Frontal pole",
+            "Olfactory bulb and tract",
+            "Anterior perforated substance (basal forebrain)",
+            "Diencephalon (hypothalamus)",
+            "Mammillary bodies",
+            "Midbrain",
+            "Occipital pole",
+            "Interhemispheric (sagittal) fissure",
+            "Fusiform (occipitotemporal) gyri",
+            "Inferior temporal sulcus",
+            "Inferior temporal gyrus",
+            "Parahippocampal gyrus",
+            "Uncus",
+            "Collateral (rhinal) sulcus",
+            "Temporal pole",
+            "Orbital frontal gyri",
+            "Olfactory sulcus",
+            "Gyrus rectus"
+        ]
     }
 }
