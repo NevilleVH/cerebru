@@ -100,5 +100,24 @@
             "Olfactory sulcus",
             "Gyrus rectus"
         ]
+    },
+    "axial_superior": {
+        "title": "Axial superior",
+        "path": "/src/lib/assets/diagrams/axial_superior.svg",
+        "labels": [
+            "Interhemispheric (sagittal) fissure",
+            "Precentral sulcus",
+            "Precentral gyrus",
+            "Central sulcus",
+            "Postcentral gyrus",
+            "Postcentral sulcus",
+            "Superior parietal lobule",
+            "Inferior parietal lobule",
+            "Intraparietal sulcus",
+            "Occipital pole",
+            "Middle frontal gyrus",
+            "Superior frontal sulcus",
+            "Superior frontal gyrus"
+        ]
     }
 }
