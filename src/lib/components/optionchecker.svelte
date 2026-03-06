@@ -12,6 +12,6 @@
         {/each}
     </select>
     <!-- <div>{distance > 2 ? "❌": "✅"}</div> -->
-    <div>{label.toLowerCase() !== value.toLowerCase() ? "❌": "✅"}</div>
+    <div>{label.toLowerCase().trim() !== value.toLowerCase().trim() ? "❌": "✅"}</div>
     <button onclick={() => value = label}>?</button>
 </div>
