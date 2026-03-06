@@ -186,5 +186,42 @@
             "Medulla",
             "Spinal cord"
         ]
+    },
+    "lateral_sagittal_brain_stem": {
+        "title": "Lateral sagittal brain stem",
+        "path": "/src/lib/assets/diagrams/lateral_sagittal_brain_stem.svg",
+        "labels": [
+            "Lateral geniculate body",
+            "Brachium of superior colliculus",
+            "Medial geniculate body",
+            "Superior colliculus",
+            "Brachium of inferior colliculus",
+            "Inferior colliculus",
+            "Superior cerebellar peduncle",
+            "Middle cerebellar peduncle",
+            "Inferior cerebellar peduncle",
+            "Facial nerve (CN VII)",
+            "Vestibulocochlear nerve (CN VIII)",
+            "Fasciculus gracilis",
+            "Fasciculus cuneatus",
+            "Spinal accessory nerve (CN XI)",
+            "Hypoglossal nerve (CN XII)",
+            "Vagus nerve (CN X)",
+            "Olive",
+            "Pyramid",
+            "Glossopharyngeal nerve (CN IX)",
+            "Abducens nerve (CN VI)",
+            "Trigeminal nerve (CN V)",
+            "Trochlear nerve (CN IV)",
+            "Oculomotor nerve (CN III)",
+            "Cerebral peduncle",
+            "Optic nerve (CN II)",
+            "Optic tract",
+            "Thalamus",
+            "Midbrain",
+            "Pons",
+            "Medulla",
+            "Spinal cord"
+        ]
     }
 }
