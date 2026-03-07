@@ -3,292 +3,1181 @@
         "title": "Cerebrum: Sagittal midline",
         "path": "/src/lib/assets/diagrams/cerebral_sagittal_midline.svg",
         "labels": [
-            "Central sulcus",
-            "Paracentral lobule",
-            "Cingulate sulcus (marginal branch)",
-            "Fornix",
-            "Precuneus",
-            "Cuneus",
-            "Parieto-occipital sulcus",
-            "Pineal body",
-            "Isthmus",
-            "Calcarine fissure",
-            "Lingula",
-            "Cerebellum",
-            "Spinal cord",
-            "Medulla",
-            "Pons",
-            "Midbrain",
-            "Optic nerve and chiasm",
-            "Hypothalamus",
-            "Thalamus",
-            "Diencephalon",
-            "Lamina terminalis",
-            "Paraterminal gyrus",
-            "Anterior commissure",
-            "Rostrum",
-            "Genu",
-            "Splenium",
-            "Body",
-            "Corpus callosum",
-            "Superior frontal gyrus",
-            "Cingulate sulcus",
-            "Cingulate gyrus",
-            "Septum pellucidum"
+            {
+                "term": "Central sulcus",
+                "description": "A deep groove separating the frontal lobe from the parietal lobe.",
+                "etymology": "Latin 'sulcus' (furrow or groove)."
+            },
+            {
+                "term": "Paracentral lobule",
+                "description": "The portion of the cerebral cortex on the medial surface surrounding the central sulcus.",
+                "etymology": "Greek 'para' (beside) + 'centrum' (center)."
+            },
+            {
+                "term": "Cingulate sulcus (marginal branch)",
+                "description": "The terminal portion of the cingulate sulcus that curves upward to the superior border of the hemisphere.",
+                "etymology": "Latin 'cingulum' (belt) + 'margo' (border)."
+            },
+            {
+                "term": "Fornix",
+                "description": "A C-shaped bundle of white matter fibers that acts as the major output tract of the hippocampus.",
+                "etymology": "Latin 'fornix' (arch or vault)."
+            },
+            {
+                "term": "Precuneus",
+                "description": "The portion of the superior parietal lobule on the medial surface, anterior to the cuneus.",
+                "etymology": "Latin 'pre' (before) + 'cuneus' (wedge)."
+            },
+            {
+                "term": "Cuneus",
+                "description": "A wedge-shaped section of the occipital lobe on the medial surface.",
+                "etymology": "Latin 'cuneus' (wedge)."
+            },
+            {
+                "term": "Parieto-occipital sulcus",
+                "description": "A deep groove marking the boundary between the parietal and occipital lobes.",
+                "etymology": "Latin 'paries' (wall) + 'occiput' (back of the head)."
+            },
+            {
+                "term": "Pineal body",
+                "description": "A small endocrine gland in the brain that produces melatonin.",
+                "etymology": "Latin 'pinea' (pinecone)."
+            },
+            {
+                "term": "Isthmus",
+                "description": "The narrow part of the cingulate gyrus that connects it with the parahippocampal gyrus.",
+                "etymology": "Greek 'isthmos' (narrow passage or neck)."
+            },
+            {
+                "term": "Calcarine fissure",
+                "description": "An anatomical landmark located at the caudal end of the medial surface of the brain, housing the primary visual cortex.",
+                "etymology": "Latin 'calcar' (spur)."
+            },
+            {
+                "term": "Lingula",
+                "description": "A tongue-shaped gyrus of the occipital lobe located between the calcarine and collateral sulci.",
+                "etymology": "Latin 'lingula' (little tongue)."
+            },
+            {
+                "term": "Cerebellum",
+                "description": "The 'little brain' located at the back of the skull, vital for motor control and coordination.",
+                "etymology": "Latin 'cerebellum' (diminutive of cerebrum, 'little brain')."
+            },
+            {
+                "term": "Spinal cord",
+                "description": "The long, thin, tubular bundle of nervous tissue that extends from the brainstem.",
+                "etymology": "Latin 'spina' (thorn/spine) + 'chorda' (string)."
+            },
+            {
+                "term": "Medulla",
+                "description": "The lowest part of the brainstem, responsible for autonomic functions like breathing and heart rate.",
+                "etymology": "Latin 'medulla' (pith or marrow)."
+            },
+            {
+                "term": "Pons",
+                "description": "The part of the brainstem that links the medulla oblongata and the thalamus.",
+                "etymology": "Latin 'pons' (bridge)."
+            },
+            {
+                "term": "Midbrain",
+                "description": "The topmost part of the brainstem, involved in visual and auditory processing.",
+                "etymology": "Old English 'mid' + 'brægen' (brain)."
+            },
+            {
+                "term": "Optic nerve and chiasm",
+                "description": "The pathway for visual information from the eyes to the brain, where fibers partially cross.",
+                "etymology": "Greek 'optikos' (vision) + 'chiasma' (crossing, named after letter X)."
+            },
+            {
+                "term": "Hypothalamus",
+                "description": "A region of the forebrain below the thalamus that coordinates the autonomic nervous system.",
+                "etymology": "Greek 'hypo' (under) + 'thalamos' (inner chamber)."
+            },
+            {
+                "term": "Thalamus",
+                "description": "A large mass of gray matter relaying sensory signals to the cerebral cortex.",
+                "etymology": "Greek 'thalamos' (inner chamber or bedroom)."
+            },
+            {
+                "term": "Diencephalon",
+                "description": "The caudal part of the forebrain, containing the thalamus and hypothalamus.",
+                "etymology": "Greek 'dia' (through) + 'enkephalos' (brain)."
+            },
+            {
+                "term": "Lamina terminalis",
+                "description": "A thin sheet of gray matter forming the anterior wall of the third ventricle.",
+                "etymology": "Latin 'lamina' (thin plate) + 'terminalis' (boundary)."
+            },
+            {
+                "term": "Paraterminal gyrus",
+                "description": "A small gyrus on the medial surface of the hemisphere, anterior to the lamina terminalis.",
+                "etymology": "Greek 'para' (beside) + 'terminalis' (end)."
+            },
+            {
+                "term": "Anterior commissure",
+                "description": "A bundle of nerve fibers connecting the two temporal lobes.",
+                "etymology": "Latin 'commissura' (joining together)."
+            },
+            {
+                "term": "Rostrum",
+                "description": "The anterior-inferior part of the corpus callosum.",
+                "etymology": "Latin 'rostrum' (beak)."
+            },
+            {
+                "term": "Genu",
+                "description": "The anterior bend of the corpus callosum.",
+                "etymology": "Latin 'genu' (knee)."
+            },
+            {
+                "term": "Splenium",
+                "description": "The thick posterior part of the corpus callosum.",
+                "etymology": "Greek 'splenion' (bandage or compress)."
+            },
+            {
+                "term": "Body",
+                "description": "The central part of the corpus callosum between the genu and splenium.",
+                "etymology": "Old English 'bodig' (main part of a structure)."
+            },
+            {
+                "term": "Corpus callosum",
+                "description": "The large band of neural fibers connecting the two brain hemispheres.",
+                "etymology": "Latin 'corpus' (body) + 'callosum' (tough)."
+            },
+            {
+                "term": "Superior frontal gyrus",
+                "description": "The uppermost convolution of the frontal lobe.",
+                "etymology": "Latin 'superior' (higher) + 'frons' (forehead)."
+            },
+            {
+                "term": "Cingulate sulcus",
+                "description": "The groove separating the cingulate gyrus from the frontal and parietal lobes.",
+                "etymology": "Latin 'cingulum' (belt) + 'sulcus' (furrow)."
+            },
+            {
+                "term": "Cingulate gyrus",
+                "description": "A curved gyrus covering the corpus callosum, part of the limbic system.",
+                "etymology": "Latin 'cingulum' (belt or girdle)."
+            },
+            {
+                "term": "Septum pellucidum",
+                "description": "A thin membrane separating the left and right lateral ventricles.",
+                "etymology": "Latin 'septum' (partition) + 'pellucidum' (translucent)."
+            }
         ]
     },
     "cerebral_surface_sagittal_lateral": {
         "title": "Cerebrum: Sagittal lateral",
         "path": "/src/lib/assets/diagrams/cerebral_surface_sagittal_lateral.png",
         "labels": [
-            "Central sulcus",
-            "Postcentral gyrus",
-            "Postcentral sulcus",
-            "Superior parietal lobule",
-            "Intraparietal sulcus",
-            "Inferior parietal lobule",
-            "Supramarginal gyrus",
-            "Angular gyrus",
-            "Occipital gyri",
-            "Occipital pole",
-            "Preoccipiral notch",
-            "Cerebellum",
-            "Spinal cord",
-            "Medulla",
-            "Pons",
-            "Inferior temporal gyrus",
-            "Middle temporal sulcus",
-            "Middle temporal gyrus",
-            "Superior temporal sulcus",
-            "Superior temporal gyrus",
-            "Temporal pole",
-            "Sylvian fissure",
-            "Orbital gyri",
-            "Frontal pole",
-            "Pars obitalis",
-            "Pars triangularis",
-            "Pars opercularis",
-            "Inferior frontal gyrus",
-            "Inferior frontal sulcus",
-            "Moddle frontal gyrus",
-            "Superior frontal sulcus",
-            "Superior frontal gyrus",
-            "Precentral sulcus",
-            "Precentral gyrus"
+            {
+                "term": "Central sulcus",
+                "description": "A prominent groove separating the frontal lobe from the parietal lobe and the primary motor cortex from the primary somatosensory cortex.",
+                "etymology": "Latin 'sulcus' (furrow or groove)."
+            },
+            {
+                "term": "Postcentral gyrus",
+                "description": "The primary somatosensory cortex, responsible for processing touch and proprioception.",
+                "etymology": "Latin 'post' (after) + 'centrum' (center) + 'gyrus' (ring/circle)."
+            },
+            {
+                "term": "Postcentral sulcus",
+                "description": "A groove parallel to the central sulcus that forms the posterior boundary of the postcentral gyrus.",
+                "etymology": "Latin 'post' (after) + 'sulcus' (furrow)."
+            },
+            {
+                "term": "Superior parietal lobule",
+                "description": "A region involved in spatial orientation and the integration of sensory input.",
+                "etymology": "Latin 'superior' (higher) + 'paries' (wall) + 'lobulus' (small lobe)."
+            },
+            {
+                "term": "Intraparietal sulcus",
+                "description": "A horizontal groove in the parietal lobe that divides the superior and inferior parietal lobules.",
+                "etymology": "Latin 'intra' (within) + 'paries' (wall) + 'sulcus' (furrow)."
+            },
+            {
+                "term": "Inferior parietal lobule",
+                "description": "A cortical region involved in language, mathematical operations, and complex sensory integration.",
+                "etymology": "Latin 'inferior' (lower) + 'paries' (wall)."
+            },
+            {
+                "term": "Supramarginal gyrus",
+                "description": "Part of the inferior parietal lobule involved in phonological processing and emotional responses.",
+                "etymology": "Latin 'supra' (above) + 'margo' (border)."
+            },
+            {
+                "term": "Angular gyrus",
+                "description": "Part of the inferior parietal lobule involved in language, number processing, and memory retrieval.",
+                "etymology": "Latin 'angulus' (corner or angle)."
+            },
+            {
+                "term": "Occipital gyri",
+                "description": "Convolutions of the occipital lobe primarily responsible for visual processing.",
+                "etymology": "Greek 'okhis' (eye) + 'caput' (head)."
+            },
+            {
+                "term": "Occipital pole",
+                "description": "The most posterior point of the occipital lobe.",
+                "etymology": "Greek 'okhis' + 'caput' + Latin 'polus' (end of an axis)."
+            },
+            {
+                "term": "Preoccipiral notch",
+                "description": "An indentation on the inferolateral border of the hemisphere that serves as a landmark for the boundary between the temporal and occipital lobes.",
+                "etymology": "Latin 'pre' (before) + 'occiput' + 'nocchia' (notch)."
+            },
+            {
+                "term": "Cerebellum",
+                "description": "A large structure of the hindbrain that controls fine motor skills and balance.",
+                "etymology": "Latin 'cerebellum' (little brain)."
+            },
+            {
+                "term": "Spinal cord",
+                "description": "The pathway for messages sent between the brain and the body.",
+                "etymology": "Latin 'spina' (spine) + 'chorda' (cord)."
+            },
+            {
+                "term": "Medulla",
+                "description": "The base of the brainstem; controls heartbeat and breathing.",
+                "etymology": "Latin 'medulla' (pith or marrow)."
+            },
+            {
+                "term": "Pons",
+                "description": "Relays information from the cerebellum to the rest of the brain.",
+                "etymology": "Latin 'pons' (bridge)."
+            },
+            {
+                "term": "Inferior temporal gyrus",
+                "description": "The lowest of the three temporal gyri, involved in high-level visual processing and object recognition.",
+                "etymology": "Latin 'inferior' + 'temporalis' (pertaining to time/temples)."
+            },
+            {
+                "term": "Middle temporal sulcus",
+                "description": "The groove separating the middle and inferior temporal gyri.",
+                "etymology": "Latin 'medius' (middle) + 'temporalis' + 'sulcus'."
+            },
+            {
+                "term": "Middle temporal gyrus",
+                "description": "Involved in recognition of faces and word meaning during reading.",
+                "etymology": "Latin 'medius' + 'temporalis' + 'gyrus'."
+            },
+            {
+                "term": "Superior temporal sulcus",
+                "description": "The groove separating the superior and middle temporal gyri.",
+                "etymology": "Latin 'superior' + 'temporalis' + 'sulcus'."
+            },
+            {
+                "term": "Superior temporal gyrus",
+                "description": "Contains the primary auditory cortex, responsible for processing sounds.",
+                "etymology": "Latin 'superior' + 'temporalis' + 'gyrus'."
+            },
+            {
+                "term": "Temporal pole",
+                "description": "The most anterior portion of the temporal lobe.",
+                "etymology": "Latin 'temporalis' + 'polus'."
+            },
+            {
+                "term": "Sylvian fissure",
+                "description": "The lateral sulcus that divides the temporal lobe from the frontal and parietal lobes.",
+                "etymology": "Named after Franciscus Sylvius."
+            },
+            {
+                "term": "Orbital gyri",
+                "description": "Gyri on the inferior surface of the frontal lobe, involved in emotion and decision-making.",
+                "etymology": "Latin 'orbita' (track/eye socket)."
+            },
+            {
+                "term": "Frontal pole",
+                "description": "The most anterior part of the frontal lobe.",
+                "etymology": "Latin 'frons' (forehead) + 'polus'."
+            },
+            {
+                "term": "Pars orbitalis",
+                "description": "The inferior-most part of the inferior frontal gyrus.",
+                "etymology": "Latin 'pars' (part) + 'orbita'."
+            },
+            {
+                "term": "Pars triangularis",
+                "description": "The triangular-shaped part of the inferior frontal gyrus, part of Broca's area.",
+                "etymology": "Latin 'pars' + 'triangulum' (triangle)."
+            },
+            {
+                "term": "Pars opercularis",
+                "description": "The posterior part of the inferior frontal gyrus, part of Broca's area.",
+                "etymology": "Latin 'pars' + 'operculum' (lid/cover)."
+            },
+            {
+                "term": "Inferior frontal gyrus",
+                "description": "The lowest gyrus of the frontal lobe, containing Broca's area in the dominant hemisphere.",
+                "etymology": "Latin 'inferior' + 'frons'."
+            },
+            {
+                "term": "Inferior frontal sulcus",
+                "description": "The groove separating the middle and inferior frontal gyri.",
+                "etymology": "Latin 'inferior' + 'frons' + 'sulcus'."
+            },
+            {
+                "term": "Middle frontal gyrus",
+                "description": "A gyrus between the superior and inferior frontal sulci, involved in higher-level executive functions.",
+                "etymology": "Latin 'medius' + 'frons'."
+            },
+            {
+                "term": "Superior frontal sulcus",
+                "description": "The groove separating the superior and middle frontal gyri.",
+                "etymology": "Latin 'superior' + 'frons' + 'sulcus'."
+            },
+            {
+                "term": "Superior frontal gyrus",
+                "description": "The uppermost gyrus of the frontal lobe, involved in self-awareness and laughter.",
+                "etymology": "Latin 'superior' + 'frons'."
+            },
+            {
+                "term": "Precentral sulcus",
+                "description": "A groove parallel to the central sulcus that forms the anterior boundary of the precentral gyrus.",
+                "etymology": "Latin 'pre' (before) + 'centrum' + 'sulcus'."
+            },
+            {
+                "term": "Precentral gyrus",
+                "description": "The primary motor cortex, responsible for the execution of voluntary movements.",
+                "etymology": "Latin 'pre' + 'centrum' + 'gyrus'."
+            }
         ]
     },
     "axial_inferior": {
         "title": "Cerebrum: Axial inferior",
         "path": "/src/lib/assets/diagrams/axial_inferior.svg",
         "labels": [
-            "Frontal pole",
-            "Olfactory bulb and tract",
-            "Anterior perforated substance (basal forebrain)",
-            "Diencephalon (hypothalamus)",
-            "Mammillary bodies",
-            "Midbrain",
-            "Occipital pole",
-            "Interhemispheric (sagittal) fissure",
-            "Fusiform (occipitotemporal) gyri",
-            "Inferior temporal sulcus",
-            "Inferior temporal gyrus",
-            "Parahippocampal gyrus",
-            "Uncus",
-            "Collateral (rhinal) sulcus",
-            "Temporal pole",
-            "Orbital frontal gyri",
-            "Olfactory sulcus",
-            "Gyrus rectus"
+            {
+                "term": "Frontal pole",
+                "description": "The most anterior portion of the frontal lobes.",
+                "etymology": "Latin 'frons' (forehead) + 'polus' (axis/end)."
+            },
+            {
+                "term": "Olfactory bulb and tract",
+                "description": "Structures involved in the sense of smell, located on the inferior surface of the frontal lobe.",
+                "etymology": "Latin 'olfacere' (to smell) + 'bulbus' (onion) + 'tractus' (pathway)."
+            },
+            {
+                "term": "Anterior perforated substance",
+                "description": "An area at the base of the brain where numerous small blood vessels enter.",
+                "etymology": "Latin 'perforare' (to pierce through)."
+            },
+            {
+                "term": "Diencephalon (hypothalamus)",
+                "description": "The region of the brain responsible for hormone production and autonomic control.",
+                "etymology": "Greek 'dia' (through) + 'enkephalos' (brain) + 'hypo' (under) + 'thalamos' (chamber)."
+            },
+            {
+                "term": "Mammillary bodies",
+                "description": "Small round structures on the undersurface of the hypothalamus involved in recollective memory.",
+                "etymology": "Latin 'mammilla' (little breast/nipple)."
+            },
+            {
+                "term": "Midbrain",
+                "description": "The most superior part of the brainstem, relaying sensory and motor information.",
+                "etymology": "Old English 'mid' + 'brægen' (brain)."
+            },
+            {
+                "term": "Occipital pole",
+                "description": "The most posterior point of the occipital lobe.",
+                "etymology": "Latin 'occiput' (back of the head) + 'polus'."
+            },
+            {
+                "term": "Interhemispheric (sagittal) fissure",
+                "description": "The deep groove that separates the two cerebral hemispheres.",
+                "etymology": "Latin 'inter' (between) + 'hemisphaerium' (half-sphere) + 'fissura' (split)."
+            },
+            {
+                "term": "Fusiform (occipitotemporal) gyri",
+                "description": "A gyrus on the basal surface of the temporal and occipital lobes, critical for face and object recognition.",
+                "etymology": "Latin 'fusus' (spindle) + 'forma' (shape)."
+            },
+            {
+                "term": "Inferior temporal sulcus",
+                "description": "A groove on the lateral/inferior surface of the temporal lobe.",
+                "etymology": "Latin 'inferior' + 'temporalis' + 'sulcus'."
+            },
+            {
+                "term": "Inferior temporal gyrus",
+                "description": "A gyrus on the inferior surface of the temporal lobe involved in visual processing.",
+                "etymology": "Latin 'inferior' + 'temporalis' + 'gyrus'."
+            },
+            {
+                "term": "Parahippocampal gyrus",
+                "description": "A grey matter cortical region of the brain that surrounds the hippocampus.",
+                "etymology": "Greek 'para' (beside) + 'hippos' (horse) + 'kampos' (sea monster)."
+            },
+            {
+                "term": "Uncus",
+                "description": "The hook-shaped anterior end of the parahippocampal gyrus.",
+                "etymology": "Latin 'uncus' (hook)."
+            },
+            {
+                "term": "Collateral (rhinal) sulcus",
+                "description": "A groove on the inferior surface of the temporal lobe separating the fusiform and parahippocampal gyri.",
+                "etymology": "Latin 'collateralis' (side-by-side) / Greek 'rhis' (nose)."
+            },
+            {
+                "term": "Temporal pole",
+                "description": "The anterior-most part of the temporal lobe.",
+                "etymology": "Latin 'temporalis' + 'polus'."
+            },
+            {
+                "term": "Orbital frontal gyri",
+                "description": "Gyri located on the inferior surface of the frontal lobe, above the eye orbits.",
+                "etymology": "Latin 'orbita' (eye socket) + 'frons'."
+            },
+            {
+                "term": "Olfactory sulcus",
+                "description": "A groove on the inferior surface of the frontal lobe that houses the olfactory bulb.",
+                "etymology": "Latin 'olfacere' + 'sulcus'."
+            },
+            {
+                "term": "Gyrus rectus",
+                "description": "A straight gyrus on the medial-inferior surface of the frontal lobe.",
+                "etymology": "Latin 'rectus' (straight) + 'gyrus'."
+            }
         ]
     },
     "axial_superior": {
         "title": "Cerebrum: Axial superior",
         "path": "/src/lib/assets/diagrams/axial_superior.svg",
         "labels": [
-            "Interhemispheric (sagittal) fissure",
-            "Precentral sulcus",
-            "Precentral gyrus",
-            "Central sulcus",
-            "Postcentral gyrus",
-            "Postcentral sulcus",
-            "Superior parietal lobule",
-            "Inferior parietal lobule",
-            "Intraparietal sulcus",
-            "Occipital pole",
-            "Middle frontal gyrus",
-            "Superior frontal sulcus",
-            "Superior frontal gyrus"
+            {
+                "term": "Interhemispheric (sagittal) fissure",
+                "description": "The large cleft separating the left and right hemispheres.",
+                "etymology": "Latin 'inter' + 'hemisphaerium'."
+            },
+            {
+                "term": "Precentral sulcus",
+                "description": "The groove anterior to the primary motor cortex.",
+                "etymology": "Latin 'pre' (before) + 'centrum' + 'sulcus'."
+            },
+            {
+                "term": "Precentral gyrus",
+                "description": "The primary motor cortex of the brain.",
+                "etymology": "Latin 'pre' + 'centrum' + 'gyrus'."
+            },
+            {
+                "term": "Central sulcus",
+                "description": "The major groove separating the frontal and parietal lobes.",
+                "etymology": "Latin 'sulcus' (furrow)."
+            },
+            {
+                "term": "Postcentral gyrus",
+                "description": "The primary somatosensory cortex.",
+                "etymology": "Latin 'post' (after) + 'centrum' + 'gyrus'."
+            },
+            {
+                "term": "Postcentral sulcus",
+                "description": "The groove posterior to the primary somatosensory cortex.",
+                "etymology": "Latin 'post' + 'sulcus'."
+            },
+            {
+                "term": "Superior parietal lobule",
+                "description": "The upper part of the parietal lobe involved in spatial awareness.",
+                "etymology": "Latin 'superior' + 'paries' (wall) + 'lobulus'."
+            },
+            {
+                "term": "Inferior parietal lobule",
+                "description": "The lower part of the parietal lobe involved in complex sensory integration.",
+                "etymology": "Latin 'inferior' + 'paries' + 'lobulus'."
+            },
+            {
+                "term": "Intraparietal sulcus",
+                "description": "The groove dividing the superior and inferior parietal lobules.",
+                "etymology": "Latin 'intra' (within) + 'paries' + 'sulcus'."
+            },
+            {
+                "term": "Occipital pole",
+                "description": "The posterior-most tip of the brain.",
+                "etymology": "Latin 'occiput' + 'polus'."
+            },
+            {
+                "term": "Middle frontal gyrus",
+                "description": "A gyrus on the lateral surface of the frontal lobe.",
+                "etymology": "Latin 'medius' + 'frons' + 'gyrus'."
+            },
+            {
+                "term": "Superior frontal sulcus",
+                "description": "The groove separating the superior and middle frontal gyri.",
+                "etymology": "Latin 'superior' + 'frons' + 'sulcus'."
+            },
+            {
+                "term": "Superior frontal gyrus",
+                "description": "The uppermost gyrus of the frontal lobe.",
+                "etymology": "Latin 'superior' + 'frons' + 'gyrus'."
+            }
         ]
     },
     "anterior_coronal_brain_stem": {
         "title": "Brain stem: Ventral",
         "path": "/src/lib/assets/diagrams/anterior_coronal_brain_stem.svg",
         "labels": [
-            "Thalamus",
-            "Midbrain",
-            "Pons",
-            "Medulla",
-            "Spinal cord",
-            "Optic chiasm",
-            "Optic tract",
-            "Interpeduncular fossa",
-            "Cerebral peduncle",
-            "Middle cerebellar peduncle",
-            "Cerebellopontine angle",
-            "Inferior olive",
-            "Pyramid",
-            "Pyramidal decussation",
-            "Spinal accessory nerve (CN XI)",
-            "Hypoglossal nerve (CN XII)",
-            "Vagus never (CN X)",
-            "Glossopharyngeal nerve (CN IX)",
-            "Vestibulocochlear nerve (CN VIII)",
-            "Facial nerve (CN VII)",
-            "Abducens nerve (CN VI)",
-            "Trigeminal nerve (CN V)",
-            "Trochlear nerve (CN IV)",
-            "Oculomotor nerve (CN III)",
-            "Optic nerve (CN II)"
+            {
+                "term": "Thalamus",
+                "description": "A large mass of gray matter in the dorsal part of the diencephalon that relays sensory signals to the cerebral cortex.",
+                "etymology": "Greek 'thalamos' (inner chamber)."
+            },
+            {
+                "term": "Midbrain",
+                "description": "The most superior portion of the brainstem, involved in visual and auditory reflexes.",
+                "etymology": "Old English 'mid' + 'brægen' (brain)."
+            },
+            {
+                "term": "Pons",
+                "description": "The middle part of the brainstem that serves as a bridge between the medulla and the midbrain.",
+                "etymology": "Latin 'pons' (bridge)."
+            },
+            {
+                "term": "Medulla",
+                "description": "The lowest part of the brainstem, continuous with the spinal cord, containing vital autonomic centers.",
+                "etymology": "Latin 'medulla' (marrow/pith)."
+            },
+            {
+                "term": "Spinal cord",
+                "description": "The long, thin tubular structure made of nervous tissue that extends from the medulla.",
+                "etymology": "Latin 'spina' (thorn/spine) + 'chorda' (string)."
+            },
+            {
+                "term": "Optic chiasm",
+                "description": "The X-shaped structure formed by the crossing of the optic nerves.",
+                "etymology": "Greek 'optikos' (vision) + 'chiasma' (crossing)."
+            },
+            {
+                "term": "Optic tract",
+                "description": "The continuation of the optic nerve fibers from the optic chiasm to the lateral geniculate nucleus.",
+                "etymology": "Greek 'optikos' + Latin 'tractus' (pathway)."
+            },
+            {
+                "term": "Interpeduncular fossa",
+                "description": "A depression on the ventral surface of the midbrain between the two cerebral peduncles.",
+                "etymology": "Latin 'inter' (between) + 'pedunculus' (little foot) + 'fossa' (ditch)."
+            },
+            {
+                "term": "Cerebral peduncle",
+                "description": "Large bundles of nerve fibers on the ventral midbrain that carry motor tracts.",
+                "etymology": "Latin 'pedunculus' (little foot)."
+            },
+            {
+                "term": "Middle cerebellar peduncle",
+                "description": "The largest of the three peduncles, connecting the pons to the cerebellum.",
+                "etymology": "Latin 'pedunculus' + 'cerebellum' (little brain)."
+            },
+            {
+                "term": "Cerebellopontine angle",
+                "description": "The junction between the cerebellum, pons, and medulla; a common site for acoustic neuromas.",
+                "etymology": "Latin 'cerebellum' + 'pons' + 'angulus' (corner)."
+            },
+            {
+                "term": "Inferior olive",
+                "description": "A prominent oval swelling on the medulla involved in motor coordination.",
+                "etymology": "Latin 'oliva' (olive), due to its shape."
+            },
+            {
+                "term": "Pyramid",
+                "description": "Paired white matter structures of the medulla containing motor fibers of the corticospinal tract.",
+                "etymology": "Greek 'pyramis' (pyramid)."
+            },
+            {
+                "term": "Pyramidal decussation",
+                "description": "The area in the lower medulla where motor fibers cross the midline.",
+                "etymology": "Latin 'decussare' (to cross in an X shape)."
+            },
+            {
+                "term": "Spinal accessory nerve (CN XI)",
+                "description": "A motor nerve that controls the sternocleidomastoid and trapezius muscles.",
+                "etymology": "Latin 'spina' + 'accessorius' (added/additional)."
+            },
+            {
+                "term": "Hypoglossal nerve (CN XII)",
+                "description": "The nerve responsible for coordinating tongue movements.",
+                "etymology": "Greek 'hypo' (under) + 'glossa' (tongue)."
+            },
+            {
+                "term": "Vagus nerve (CN X)",
+                "description": "The longest cranial nerve, providing parasympathetic control to the heart, lungs, and digestive tract.",
+                "etymology": "Latin 'vagus' (wandering)."
+            },
+            {
+                "term": "Glossopharyngeal nerve (CN IX)",
+                "description": "A nerve involved in taste, swallowing, and the gag reflex.",
+                "etymology": "Greek 'glossa' (tongue) + 'pharynx' (throat)."
+            },
+            {
+                "term": "Vestibulocochlear nerve (CN VIII)",
+                "description": "The nerve responsible for the senses of hearing and balance.",
+                "etymology": "Latin 'vestibulum' (entrance) + Greek 'kokhlos' (snail shell)."
+            },
+            {
+                "term": "Facial nerve (CN VII)",
+                "description": "The nerve controlling the muscles of facial expression.",
+                "etymology": "Latin 'facies' (face)."
+            },
+            {
+                "term": "Abducens nerve (CN VI)",
+                "description": "The motor nerve that controls the lateral rectus muscle of the eye.",
+                "etymology": "Latin 'abducens' (drawing away)."
+            },
+            {
+                "term": "Trigeminal nerve (CN V)",
+                "description": "The largest cranial nerve, responsible for facial sensation and chewing.",
+                "etymology": "Latin 'trigeminus' (born three at once/triplets), for its three branches."
+            },
+            {
+                "term": "Trochlear nerve (CN IV)",
+                "description": "A motor nerve that innervates the superior oblique muscle of the eye.",
+                "etymology": "Latin 'trochlea' (pulley)."
+            },
+            {
+                "term": "Oculomotor nerve (CN III)",
+                "description": "The nerve responsible for most eye movements and pupil constriction.",
+                "etymology": "Latin 'oculus' (eye) + 'motor' (mover)."
+            },
+            {
+                "term": "Optic nerve (CN II)",
+                "description": "The sensory nerve that transmits visual information from the retina to the brain.",
+                "etymology": "Greek 'optikos' (pertaining to sight)."
+            }
         ]
     },
     "posterior_coronal_brain_stem": {
         "title": "Brain stem: Dorsal",
         "path": "/src/lib/assets/diagrams/posterior_coronal_brain_stem.svg",
         "labels": [
-            "Brachium of superior colliculus",
-            "Lateral geniculate nucleus",
-            "Medial geniculate nucleus",
-            "Brachium of inferior colliculus",
-            "Trochlear nerve (CN IV)",
-            "Facial colliculus",
-            "Hypoglossal trigone",
-            "Glossopharangeal nerve (CN IX)",
-            "Vagus nerve (CN X)",
-            "Vagal trigone",
-            "Spinal accessory nerve (CN XI)",
-            "Fasciculus cuneatus",
-            "Fasciculus gracilis",
-            "Dorsal (posterior) columns",
-            "Nucleus gracilis",
-            "Nucleus cuneatus",
-            "Dorsal (posterior) column tubercles",
-            "Obex",
-            "Inferior cerebellar peduncle",
-            "Middle cerebellar peduncle",
-            "Superior cerebellar peduncle",
-            "Anterior medullary velum",
-            "Inferior colliculus",
-            "Superior colliculus",
-            "Pineal body",
-            "Thalamus",
-            "Midbrain",
-            "Pons",
-            "Medulla",
-            "Spinal cord"
+            {
+                "term": "Brachium of superior colliculus",
+                "description": "A bridge of white matter fibers connecting the optic tract and the superior colliculus.",
+                "etymology": "Latin 'brachium' (arm)."
+            },
+            {
+                "term": "Lateral geniculate nucleus",
+                "description": "A relay center in the thalamus for the visual pathway.",
+                "etymology": "Latin 'genu' (knee), referring to its bent shape."
+            },
+            {
+                "term": "Medial geniculate nucleus",
+                "description": "A part of the auditory thalamus that represents the thalamic relay between the inferior colliculus and the auditory cortex.",
+                "etymology": "Latin 'genu' (knee) + 'medialis' (middle)."
+            },
+            {
+                "term": "Brachium of inferior colliculus",
+                "description": "A bundle of auditory fibers connecting the inferior colliculus to the medial geniculate body.",
+                "etymology": "Latin 'brachium' (arm)."
+            },
+            {
+                "term": "Trochlear nerve (CN IV)",
+                "description": "The only cranial nerve to emerge from the dorsal aspect of the brainstem.",
+                "etymology": "Latin 'trochlea' (pulley)."
+            },
+            {
+                "term": "Facial colliculus",
+                "description": "An elevation in the rhomboid fossa formed by the fibers of the facial nerve looping over the abducens nucleus.",
+                "etymology": "Latin 'facies' (face) + 'colliculus' (little hill)."
+            },
+            {
+                "term": "Hypoglossal trigone",
+                "description": "A slight elevation in the floor of the fourth ventricle over the hypoglossal nucleus.",
+                "etymology": "Greek 'hypo' (under) + 'glossa' (tongue) + 'trigonon' (triangle)."
+            },
+            {
+                "term": "Glossopharangeal nerve (CN IX)"
+            },
+            {
+                "term": "Vagus nerve (CN X)"
+            },
+            {
+                "term": "Vagal trigone",
+                "description": "A small triangular area in the floor of the fourth ventricle overlying the dorsal motor nucleus of the vagus nerve.",
+                "etymology": "Latin 'vagus' (wandering) + 'trigonon' (triangle)."
+            },
+            {
+                "term": "Fasciculus cuneatus",
+                "description": "The lateral portion of the dorsal column, carrying sensory information from the upper body.",
+                "etymology": "Latin 'fasciculus' (little bundle) + 'cuneus' (wedge)."
+            },
+            {
+                "term": "Fasciculus gracilis",
+                "description": "The medial portion of the dorsal column, carrying sensory information from the lower body.",
+                "etymology": "Latin 'fasciculus' + 'gracilis' (slender)."
+            },
+            {
+                "term": "Nucleus gracilis",
+                "description": "A medullary nucleus that receives input from the fasciculus gracilis.",
+                "etymology": "Latin 'nucleus' (kernel) + 'gracilis'."
+            },
+            {
+                "term": "Nucleus cuneatus",
+                "description": "A medullary nucleus that receives input from the fasciculus cuneatus.",
+                "etymology": "Latin 'nucleus' + 'cuneus'."
+            },
+            {
+                "term": "Obex",
+                "description": "The point in the medulla where the fourth ventricle narrows to become the central canal.",
+                "etymology": "Latin 'obex' (barrier/bolt)."
+            },
+            {
+                "term": "Superior cerebellar peduncle",
+                "description": "The primary output tract of the cerebellum to the midbrain.",
+                "etymology": "Latin 'pedunculus' (little foot)."
+            },
+            {
+                "term": "Anterior medullary velum",
+                "description": "A thin layer of white matter stretching between the superior cerebellar peduncles.",
+                "etymology": "Latin 'velum' (sail/covering)."
+            },
+            {
+                "term": "Inferior colliculus",
+                "description": "Paired structures on the dorsal midbrain involved in auditory processing.",
+                "etymology": "Latin 'colliculus' (little hill)."
+            },
+            {
+                "term": "Superior colliculus",
+                "description": "Paired structures on the dorsal midbrain involved in visual reflexes.",
+                "etymology": "Latin 'colliculus' (little hill)."
+            }
         ]
     },
     "lateral_sagittal_brain_stem": {
         "title": "Brain stem: Sagittal lateral",
         "path": "/src/lib/assets/diagrams/lateral_sagittal_brain_stem.svg",
         "labels": [
-            "Lateral geniculate body",
-            "Brachium of superior colliculus",
-            "Medial geniculate body",
-            "Superior colliculus",
-            "Brachium of inferior colliculus",
-            "Inferior colliculus",
-            "Superior cerebellar peduncle",
-            "Middle cerebellar peduncle",
-            "Inferior cerebellar peduncle",
-            "Facial nerve (CN VII)",
-            "Vestibulocochlear nerve (CN VIII)",
-            "Fasciculus gracilis",
-            "Fasciculus cuneatus",
-            "Spinal accessory nerve (CN XI)",
-            "Hypoglossal nerve (CN XII)",
-            "Vagus nerve (CN X)",
-            "Olive",
-            "Pyramid",
-            "Glossopharyngeal nerve (CN IX)",
-            "Abducens nerve (CN VI)",
-            "Trigeminal nerve (CN V)",
-            "Trochlear nerve (CN IV)",
-            "Oculomotor nerve (CN III)",
-            "Cerebral peduncle",
-            "Optic nerve (CN II)",
-            "Optic tract",
-            "Thalamus",
-            "Midbrain",
-            "Pons",
-            "Medulla",
-            "Spinal cord"
+            {
+                "term": "Lateral geniculate body",
+                "description": "A relay center in the thalamus for the visual pathway, receiving input from the optic tract.",
+                "etymology": "Latin 'genu' (knee), referring to its bent or flexed shape."
+            },
+            {
+                "term": "Brachium of superior colliculus",
+                "description": "A ridge of white matter connecting the optic tract and the superior colliculus.",
+                "etymology": "Latin 'brachium' (arm) + 'superior' (higher) + 'colliculus' (little hill)."
+            },
+            {
+                "term": "Medial geniculate body",
+                "description": "The thalamic relay station for the auditory pathway, relaying to the temporal cortex.",
+                "etymology": "Latin 'medialis' (middle) + 'genu' (knee)."
+            },
+            {
+                "term": "Superior colliculus",
+                "description": "A midbrain structure involved in visual reflexes, tracking, and gaze control.",
+                "etymology": "Latin 'superior' (higher) + 'colliculus' (little hill)."
+            },
+            {
+                "term": "Brachium of inferior colliculus",
+                "description": "A fiber bundle connecting the inferior colliculus to the medial geniculate body.",
+                "etymology": "Latin 'brachium' (arm) + 'inferior' (lower) + 'colliculus' (little hill)."
+            },
+            {
+                "term": "Inferior colliculus",
+                "description": "A midbrain structure that serves as a principal relay center for auditory information.",
+                "etymology": "Latin 'inferior' (lower) + 'colliculus' (little hill)."
+            },
+            {
+                "term": "Superior cerebellar peduncle",
+                "description": "The primary output tract of the cerebellum, connecting it to the midbrain.",
+                "etymology": "Latin 'superior' + 'pedunculus' (little foot)."
+            },
+            {
+                "term": "Middle cerebellar peduncle",
+                "description": "The largest of the peduncles, carrying information from the pons to the cerebellum.",
+                "etymology": "Latin 'medius' (middle) + 'pedunculus' (little foot)."
+            },
+            {
+                "term": "Inferior cerebellar peduncle",
+                "description": "A bundle of fibers connecting the medulla and spinal cord to the cerebellum.",
+                "etymology": "Latin 'inferior' + 'pedunculus' (little foot)."
+            },
+            {
+                "term": "Facial nerve (CN VII)",
+                "description": "Cranial nerve emerging from the lateral pontomedullary junction, controlling facial expression.",
+                "etymology": "Latin 'facies' (face)."
+            },
+            {
+                "term": "Vestibulocochlear nerve (CN VIII)",
+                "description": "Sensory nerve for hearing and balance, emerging lateral to the facial nerve.",
+                "etymology": "Latin 'vestibulum' (entrance) + Greek 'kokhlos' (snail shell)."
+            },
+            {
+                "term": "Fasciculus gracilis",
+                "description": "The medial dorsal column tract carrying fine touch and proprioception from the lower body.",
+                "etymology": "Latin 'fasciculus' (little bundle) + 'gracilis' (slender)."
+            },
+            {
+                "term": "Fasciculus cuneatus",
+                "description": "The lateral dorsal column tract carrying sensory info from the upper body.",
+                "etymology": "Latin 'fasciculus' (little bundle) + 'cuneus' (wedge)."
+            },
+            {
+                "term": "Spinal accessory nerve (CN XI)",
+                "description": "Motor nerve emerging from the lateral medulla/spinal cord to control neck muscles.",
+                "etymology": "Latin 'spina' (spine) + 'accessorius' (added/additional)."
+            },
+            {
+                "term": "Hypoglossal nerve (CN XII)",
+                "description": "Motor nerve emerging from the pre-olivary sulcus of the medulla to control the tongue.",
+                "etymology": "Greek 'hypo' (under) + 'glossa' (tongue)."
+            },
+            {
+                "term": "Vagus nerve (CN X)",
+                "description": "A mixed nerve providing autonomic control for thoracic and abdominal organs.",
+                "etymology": "Latin 'vagus' (wandering)."
+            },
+            {
+                "term": "Olive",
+                "description": "An oval mass in the medulla containing the inferior olivary nucleus, involved in motor learning.",
+                "etymology": "Latin 'oliva' (olive), due to its distinct shape."
+            },
+            {
+                "term": "Pyramid",
+                "description": "Ventral medullary structure containing the corticospinal (motor) tracts.",
+                "etymology": "Greek 'pyramis' (pyramid)."
+            },
+            {
+                "term": "Glossopharyngeal nerve (CN IX)",
+                "description": "A nerve emerging from the lateral medulla involved in taste, swallowing, and sensation.",
+                "etymology": "Greek 'glossa' (tongue) + 'pharynx' (throat)."
+            },
+            {
+                "term": "Abducens nerve (CN VI)",
+                "description": "Motor nerve emerging from the pontomedullary junction for lateral eye movement.",
+                "etymology": "Latin 'abducens' (drawing away)."
+            },
+            {
+                "term": "Trigeminal nerve (CN V)",
+                "description": "Large nerve emerging from the lateral pons, responsible for facial sensation and mastication.",
+                "etymology": "Latin 'trigeminus' (triplets), for its three large divisions."
+            },
+            {
+                "term": "Trochlear nerve (CN IV)",
+                "description": "The smallest cranial nerve, winding around the lateral midbrain to innervate the superior oblique muscle.",
+                "etymology": "Latin 'trochlea' (pulley)."
+            },
+            {
+                "term": "Oculomotor nerve (CN III)",
+                "description": "Nerve emerging from the interpeduncular fossa for most eye movements and pupil constriction.",
+                "etymology": "Latin 'oculus' (eye) + 'motor' (mover)."
+            },
+            {
+                "term": "Cerebral peduncle",
+                "description": "Massive fiber bundles on the ventral aspect of the midbrain carrying descending tracts.",
+                "etymology": "Latin 'pedunculus' (little foot)."
+            },
+            {
+                "term": "Optic nerve (CN II)",
+                "description": "The sensory nerve transmitting visual information from the retina to the chiasm.",
+                "etymology": "Greek 'optikos' (pertaining to sight)."
+            },
+            {
+                "term": "Optic tract",
+                "description": "The continuation of the optic pathway from the chiasm to the lateral geniculate body.",
+                "etymology": "Greek 'optikos' + Latin 'tractus' (pathway)."
+            },
+            {
+                "term": "Thalamus",
+                "description": "The large dual-lobed mass of gray matter serving as the primary relay station for the cortex.",
+                "etymology": "Greek 'thalamos' (inner chamber)."
+            },
+            {
+                "term": "Midbrain",
+                "description": "The most superior portion of the brainstem, including the colliculi and peduncles.",
+                "etymology": "Old English 'mid' + 'brægen' (brain)."
+            },
+            {
+                "term": "Pons",
+                "description": "The bridge-like segment of the brainstem between the midbrain and medulla.",
+                "etymology": "Latin 'pons' (bridge)."
+            },
+            {
+                "term": "Medulla",
+                "description": "The lowest part of the brainstem, housing vital autonomic centers.",
+                "etymology": "Latin 'medulla' (pith or marrow)."
+            },
+            {
+                "term": "Spinal cord",
+                "description": "The bundle of nervous tissue extending inferiorly from the medulla.",
+                "etymology": "Latin 'spina' (spine) + 'chorda' (cord)."
+            }
         ]
     },
     "sagittal_midline_brain_stem": {
         "title": "Brain stem: Sagittal midline",
         "path": "/src/lib/assets/diagrams/sagittal_midline_brain_stem.svg",
         "labels": [
-            "Habenular commissure",
-            "Pineal gland",
-            "Splenium of corpus callosum",
-            "Great cerebral vein of Galen",
-            "Cerebral aqueduct of Sylvius",
-            "Lingula",
-            "Central lobule",
-            "Culmen",
-            "Declive",
-            "Folium",
-            "Tuber",
-            "Superior medullary velum",
-            "Inferior medullary velum",
-            "Choroid plexus of 4th ventricle",
-            "Pyramid",
-            "Uvula",
-            "Nodule",
-            "Central canal of spinal cord",
-            "Pyramidal decussation",
-            "Median aperture of Magendie",
-            "Tonsil",
-            "Medulla oblongata",
-            "4th ventricle",
-            "Medial longitudinal fasciculus",
-            "Pons",
-            "Inferior colliculus",
-            "Superior colliculus",
-            "Oculomotor nerve (CN III)",
-            "Optic chiasm",
-            "Mammillary body",
-            "Posterior commissure",
-            "Lamina terminalis",
-            "Anterior commissure",
-            "Thalamus",
-            "Interventricular foramen of Monro",
-            "Choroid plexus of 3rd ventricle",
-            "Body of fornix"
+            {
+                "term": "Habenular commissure",
+                "description": "A band of nerve fibers crossing the midline superior to the pineal gland.",
+                "etymology": "Latin 'habenula' (little rein)."
+            },
+            {
+                "term": "Pineal gland",
+                "description": "A small endocrine gland producing melatonin, located posterior to the third ventricle.",
+                "etymology": "Latin 'pinea' (pinecone)."
+            },
+            {
+                "term": "Splenium of corpus callosum",
+                "description": "The thick, rounded posterior end of the corpus callosum.",
+                "etymology": "Greek 'splenion' (bandage)."
+            },
+            {
+                "term": "Great cerebral vein of Galen",
+                "description": "A short, thick vein formed by internal cerebral veins draining deep brain structures.",
+                "etymology": "Named after Galen, the Greco-Roman physician."
+            },
+            {
+                "term": "Cerebral aqueduct of Sylvius",
+                "description": "A channel in the midbrain connecting the 3rd and 4th ventricles.",
+                "etymology": "Latin 'aquaeductus' (conveyance of water)."
+            },
+            {
+                "term": "Lingula",
+                "description": "The most superior and anterior part of the cerebellar vermis.",
+                "etymology": "Latin 'lingula' (little tongue)."
+            },
+            {
+                "term": "Central lobule",
+                "description": "A small lobe of the cerebellar vermis superior to the lingula.",
+                "etymology": "Latin 'centralis' (center)."
+            },
+            {
+                "term": "Culmen",
+                "description": "The summit or highest part of the cerebellar vermis.",
+                "etymology": "Latin 'culmen' (peak)."
+            },
+            {
+                "term": "Declive",
+                "description": "The sloping posterior section of the cerebellar vermis.",
+                "etymology": "Latin 'declive' (sloping downward)."
+            },
+            {
+                "term": "Folium",
+                "description": "A leaf-like segment of the cerebellar vermis.",
+                "etymology": "Latin 'folium' (leaf)."
+            },
+            {
+                "term": "Tuber",
+                "description": "A lobule of the cerebellar vermis on the inferior surface.",
+                "etymology": "Latin 'tuber' (swelling)."
+            },
+            {
+                "term": "Superior medullary velum",
+                "description": "A thin sheet of white matter forming the upper roof of the 4th ventricle.",
+                "etymology": "Latin 'velum' (sail/curtain)."
+            },
+            {
+                "term": "Inferior medullary velum",
+                "description": "A thin layer forming the lower roof of the 4th ventricle.",
+                "etymology": "Latin 'velum' (sail/curtain)."
+            },
+            {
+                "term": "Choroid plexus of 4th ventricle",
+                "description": "CSF-producing vascular tissue in the 4th ventricle.",
+                "etymology": "Greek 'chorion' (membrane) + 'plexus' (braid)."
+            },
+            {
+                "term": "Pyramid",
+                "description": "A lobule of the cerebellar vermis located between the tuber and uvula.",
+                "etymology": "Greek 'pyramis' (pyramid)."
+            },
+            {
+                "term": "Uvula",
+                "description": "A prominent lobule of the inferior cerebellar vermis.",
+                "etymology": "Latin 'uvula' (little grape)."
+            },
+            {
+                "term": "Nodule",
+                "description": "The most anterior portion of the inferior cerebellar vermis.",
+                "etymology": "Latin 'nodulus' (little knot)."
+            },
+            {
+                "term": "Central canal of spinal cord",
+                "description": "The CSF-filled space running through the center of the spinal cord.",
+                "etymology": "Latin 'canalis' (pipe)."
+            },
+            {
+                "term": "Pyramidal decussation",
+                "description": "The crossing point of motor fibers in the lower medulla.",
+                "etymology": "Latin 'decussare' (to cross in an X shape)."
+            },
+            {
+                "term": "Median aperture of Magendie",
+                "description": "The central opening for CSF to exit the 4th ventricle.",
+                "etymology": "Named after François Magendie."
+            },
+            {
+                "term": "Tonsil",
+                "description": "A rounded lobule on the undersurface of each cerebellar hemisphere.",
+                "etymology": "Latin 'tonsilla' (almond-shaped)."
+            },
+            {
+                "term": "Medulla oblongata",
+                "description": "The lowest part of the brainstem continuous with the spinal cord.",
+                "etymology": "Latin 'medulla' (marrow)."
+            },
+            {
+                "term": "4th ventricle",
+                "description": "The CSF-filled cavity between the pons/medulla and cerebellum.",
+                "etymology": "Latin 'ventriculus' (little belly)."
+            },
+            {
+                "term": "Medial longitudinal fasciculus",
+                "description": "A pathway coordinating eye and head movements.",
+                "etymology": "Latin 'fasciculus' (bundle)."
+            },
+            {
+                "term": "Pons",
+                "description": "The middle part of the brainstem.",
+                "etymology": "Latin 'pons' (bridge)."
+            },
+            {
+                "term": "Inferior colliculus",
+                "description": "Auditory reflex center in the dorsal midbrain.",
+                "etymology": "Latin 'colliculus' (little hill)."
+            },
+            {
+                "term": "Superior colliculus",
+                "description": "Visual reflex center in the dorsal midbrain.",
+                "etymology": "Latin 'colliculus' (little hill)."
+            },
+            {
+                "term": "Oculomotor nerve (CN III)",
+                "description": "The motor nerve emerging from the interpeduncular fossa.",
+                "etymology": "Latin 'oculus' (eye) + 'motor' (mover)."
+            },
+            {
+                "term": "Optic chiasm",
+                "description": "The structure where optic nerve fibers partially cross.",
+                "etymology": "Greek 'chiasma' (crossing)."
+            },
+            {
+                "term": "Mammillary body",
+                "description": "Small round bodies on the hypothalamus involved in memory.",
+                "etymology": "Latin 'mammilla' (nipple)."
+            },
+            {
+                "term": "Posterior commissure",
+                "description": "White matter band crossing the midline at the midbrain-thalamus junction.",
+                "etymology": "Latin 'commissura' (joining)."
+            },
+            {
+                "term": "Lamina terminalis",
+                "description": "The anterior boundary of the 3rd ventricle.",
+                "etymology": "Latin 'lamina' (plate) + 'terminalis' (end)."
+            },
+            {
+                "term": "Anterior commissure",
+                "description": "A fiber bundle connecting the temporal lobes.",
+                "etymology": "Latin 'commissura' (joining)."
+            },
+            {
+                "term": "Thalamus",
+                "description": "The primary sensory relay station.",
+                "etymology": "Greek 'thalamos' (chamber)."
+            },
+            {
+                "term": "Interventricular foramen of Monro",
+                "description": "Opening connecting lateral ventricles to the 3rd ventricle.",
+                "etymology": "Named after Alexander Monro Secundus."
+            },
+            {
+                "term": "Choroid plexus of 3rd ventricle",
+                "description": "Vascular tissue in the 3rd ventricle roof producing CSF.",
+                "etymology": "Greek 'chorion' (membrane) + 'plexus' (braid)."
+            },
+            {
+                "term": "Body of fornix",
+                "description": "The central section of the fornix arch.",
+                "etymology": "Latin 'fornix' (arch)."
+            }
         ]
     },
     "limbic_system": {
         "title": "Limbic system",
         "path": "/src/lib/assets/diagrams/limbic_system.svg",
         "labels": [
-            "Anterior commissure",
-            "Fornix",
-            "Cingulate gyrus",
-            "Corpus callosum",
-            "Parahippocampal gyrus",
-            "Entorhinal cortex",
-            "Hippocampal formation",
-            "Uncus",
-            "Amygdala",
-            "Temporal pole",
-            "Orbital frontal gyri",
-            "Frontal operculum",
-            "Insular cortex",
-            "Parietal operculum",
-            "Sylvian fissure",
-            "Heschl's transverse gyri",
-            "Temporal pole",
-            "Orbital frontal gyri"
+            {
+                "term": "Anterior commissure",
+                "description": "A bundle of nerve fibers connecting the two temporal lobes across the midline.",
+                "etymology": "Latin 'anterior' (before) + 'commissura' (joining)."
+            },
+            {
+                "term": "Fornix",
+                "description": "A C-shaped bundle of white matter fibers that acts as the major output pathway from the hippocampus.",
+                "etymology": "Latin 'fornix' (arch or vault)."
+            },
+            {
+                "term": "Cingulate gyrus",
+                "description": "A prominent gyrus on the medial surface of the hemisphere, involved in emotion and behavior.",
+                "etymology": "Latin 'cingulum' (belt or girdle)."
+            },
+            {
+                "term": "Corpus callosum",
+                "description": "The largest white matter structure in the brain, connecting the left and right cerebral hemispheres.",
+                "etymology": "Latin 'corpus' (body) + 'callosum' (tough/hard-skinned)."
+            },
+            {
+                "term": "Parahippocampal gyrus",
+                "description": "A grey matter cortical region of the brain that surrounds the hippocampus.",
+                "etymology": "Greek 'para' (beside) + 'hippos' (horse) + 'kampos' (sea monster)."
+            },
+            {
+                "term": "Entorhinal cortex",
+                "description": "An area in the medial temporal lobe that functions as a hub in a widespread network for memory and navigation.",
+                "etymology": "Greek 'ento' (within) + 'rhis' (nose)."
+            },
+            {
+                "term": "Hippocampal formation",
+                "description": "A compound structure including the hippocampus proper, dentate gyrus, and subiculum.",
+                "etymology": "Greek 'hippos' + 'kampos' (seahorse-like shape)."
+            },
+            {
+                "term": "Uncus",
+                "description": "The hook-shaped anterior extremity of the parahippocampal gyrus.",
+                "etymology": "Latin 'uncus' (hook)."
+            },
+            {
+                "term": "Amygdala",
+                "description": "An almond-shaped set of neurons deep in the temporal lobe, involved in processing emotions.",
+                "etymology": "Greek 'amygdale' (almond)."
+            },
+            {
+                "term": "Temporal pole",
+                "description": "The anterior-most point of the temporal lobe.",
+                "etymology": "Latin 'temporalis' + 'polus' (axis/end)."
+            },
+            {
+                "term": "Orbital frontal gyri",
+                "description": "Gyri on the inferior surface of the frontal lobe, resting on the orbital plate of the frontal bone.",
+                "etymology": "Latin 'orbita' (eye socket) + 'frons' (forehead)."
+            },
+            {
+                "term": "Frontal operculum",
+                "description": "The part of the frontal lobe that covers the insula.",
+                "etymology": "Latin 'operculum' (lid or cover)."
+            },
+            {
+                "term": "Insular cortex",
+                "description": "A portion of the cerebral cortex folded deep within the lateral sulcus.",
+                "etymology": "Latin 'insula' (island)."
+            },
+            {
+                "term": "Parietal operculum",
+                "description": "The part of the parietal lobe that forms the upper boundary of the lateral sulcus, covering the insula.",
+                "etymology": "Latin 'paries' (wall) + 'operculum'."
+            },
+            {
+                "term": "Sylvian fissure",
+                "description": "The deep lateral sulcus separating the frontal and parietal lobes from the temporal lobe.",
+                "etymology": "Named after Franciscus Sylvius; Latin 'fissura' (split)."
+            },
+            {
+                "term": "Heschl's transverse gyri",
+                "description": "Gyri found in the primary auditory cortex, located within the Sylvian fissure.",
+                "etymology": "Named after Richard L. Heschl."
+            },
+            {
+                "term": "Temporal pole"
+            },
+            {
+                "term": "Orbital frontal gyri"
+            }
         ]
     }
 }
