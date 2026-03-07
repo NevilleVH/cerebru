@@ -47,6 +47,7 @@
 			<strong>{term}</strong>
 			<div>Desciption: {description ?? ""}</div>
 			<div>Etymology: {etymology ?? ""}</div>
+			<div>Disclaimer: above information is AI generated</div>
 			<button onclick={() => {
 				expandedTerm = -1
 				dlg?.close()
