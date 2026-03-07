@@ -266,5 +266,29 @@
             "Choroid plexus of 3rd ventricle",
             "Body of fornix"
         ]
+    },
+    "limbic_system": {
+        "title": "Limbic system",
+        "path": "/src/lib/assets/diagrams/limbic_system.svg",
+        "labels": [
+            "Anterior commissure",
+            "Fornix",
+            "Cingulate gyrus",
+            "Corpus callosum",
+            "Parahippocampal gyrus",
+            "Entorhinal cortex",
+            "Hippocampal formation",
+            "Uncus",
+            "Amygdala",
+            "Temporal pole",
+            "Orbital frontal gyri",
+            "Frontal operculum",
+            "Insular cortex",
+            "Parietal operculum",
+            "Sylvian fissure",
+            "Heschl's transverse gyri",
+            "Temporal pole",
+            "Orbital frontal gyri"
+        ]
     }
 }
