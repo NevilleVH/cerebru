@@ -1,6 +1,6 @@
 {
     "cerebral_sagittal_midline": {
-        "title": "Cerebral surface sagittal midline",
+        "title": "Cerebrum: Sagittal midline",
         "path": "/src/lib/assets/diagrams/cerebral_sagittal_midline.svg",
         "labels": [
             "Central sulcus",
@@ -38,7 +38,7 @@
         ]
     },
     "cerebral_surface_sagittal_lateral": {
-        "title": "Cerebral surface sagittal lateral",
+        "title": "Cerebrum: Sagittal lateral",
         "path": "/src/lib/assets/diagrams/cerebral_surface_sagittal_lateral.png",
         "labels": [
             "Central sulcus",
@@ -78,7 +78,7 @@
         ]
     },
     "axial_inferior": {
-        "title": "Axial inferior",
+        "title": "Cerebrum: Axial inferior",
         "path": "/src/lib/assets/diagrams/axial_inferior.svg",
         "labels": [
             "Frontal pole",
@@ -102,7 +102,7 @@
         ]
     },
     "axial_superior": {
-        "title": "Axial superior",
+        "title": "Cerebrum: Axial superior",
         "path": "/src/lib/assets/diagrams/axial_superior.svg",
         "labels": [
             "Interhemispheric (sagittal) fissure",
@@ -121,7 +121,7 @@
         ]
     },
     "anterior_coronal_brain_stem": {
-        "title": "Anterior coronal brain stem",
+        "title": "Brain stem: Ventral",
         "path": "/src/lib/assets/diagrams/anterior_coronal_brain_stem.svg",
         "labels": [
             "Thalamus",
@@ -152,7 +152,7 @@
         ]
     },
     "posterior_coronal_brain_stem": {
-        "title": "Posterior coronal brain stem",
+        "title": "Brain stem: Dorsal",
         "path": "/src/lib/assets/diagrams/posterior_coronal_brain_stem.svg",
         "labels": [
             "Brachium of superior colliculus",
@@ -188,7 +188,7 @@
         ]
     },
     "lateral_sagittal_brain_stem": {
-        "title": "Lateral sagittal brain stem",
+        "title": "Brain stem: Sagittal lateral",
         "path": "/src/lib/assets/diagrams/lateral_sagittal_brain_stem.svg",
         "labels": [
             "Lateral geniculate body",
@@ -222,6 +222,49 @@
             "Pons",
             "Medulla",
             "Spinal cord"
+        ]
+    },
+    "sagittal_midline_brain_stem": {
+        "title": "Brain stem: Sagittal midline",
+        "path": "/src/lib/assets/diagrams/sagittal_midline_brain_stem.svg",
+        "labels": [
+            "Habenular commissure",
+            "Pineal gland",
+            "Splenium of corpus callosum",
+            "Great cerebral vein of Galen",
+            "Cerebral aqueduct of Sylvius",
+            "Lingula",
+            "Central lobule",
+            "Culmen",
+            "Declive",
+            "Folium",
+            "Tuber",
+            "Superior medullary velum",
+            "Inferior medullary velum",
+            "Choroid plexus of 4th ventricle",
+            "Pyramid",
+            "Uvula",
+            "Nodule",
+            "Central canal of spinal cord",
+            "Pyramidal decussation",
+            "Median aperture of Magendie",
+            "Tonsil",
+            "Medulla oblongata",
+            "4th ventricle",
+            "Medial longitudinal fasciculus",
+            "Pons",
+            "Inferior colliculus",
+            "Superior colliculus",
+            "Oculomotor nerve (CN III)",
+            "Optic chiasm",
+            "Mammillary body",
+            "Posterior commissure",
+            "Lamina terminalis",
+            "Anterior commissure",
+            "Thalamus",
+            "Interventricular foramen of Monro",
+            "Choroid plexus of 3rd ventricle",
+            "Body of fornix"
         ]
     }
 }
