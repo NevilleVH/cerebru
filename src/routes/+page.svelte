@@ -18,13 +18,14 @@
 	let selectedId = $state(diagramInfo[0].id)
 	let selected = $derived(diagramInfo.find(info => info.id === selectedId));
 	let inputType = $state<'free' | 'options'>('free');
+	let expandedTerm = $state(-1)
 </script>
 
 <div style="width:100vw; padding: 4px;">
 	<div style="display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 4px">
 		<div>
 			Diagram:
-			<select bind:value={selectedId}>
+			<select bind:value={selectedId} onchange={() => { expandedTerm = -1}}>
 				{#each diagramInfo as info}
 					<option value={info.id}>{info.title}</option>
 				{/each}
@@ -43,20 +44,30 @@
 			<div id="container" style="display: flex; width: 90vw">
 				<div id="labels-container">
 					<div id="labels" style="overflow-y:scroll; border:solid 1px; padding: 4px">
-						{#each selected.labels as label, i}
+						{#each selected.labels as {term, description, etymology}, i}
+						
 							<div style="display: flex; justify-content: end; padding: 4px; gap: 4px">
 								<div>{i + 1 + '.'}</div>
 								{#if inputType === 'free'}
-									<FreeChecker {label} />
+									<FreeChecker label={term} />
 								{:else}
-									<OptionChecker {label} items={selected.labels} />
+									<OptionChecker label={term} items={selected.labels.map(l => l.term)} />
 								{/if}
+								<button onclick={() => expandedTerm = i}>ℹ️</button>
 							</div>
 						{/each}
 					</div>
 				</div>
 				<div id="diagram" style="width: 100%">
 					<img style="object-fit: contain; width: 100%" alt={selected.title} src={selected.img} />
+					{#if expandedTerm >= 0}
+						{@const {term, description, etymology} = selected.labels[expandedTerm] ?? {}}
+						<div>
+						<strong>{term ?? ""}</strong>
+						<div>Desciption: {description ?? ""}</div>
+						<div>Etymology: {etymology ?? ""}</div>
+						</div>
+					{/if}
 				</div>
 			</div>
 		{/key}
