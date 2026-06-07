@@ -69,7 +69,7 @@
 								{:else}
 									<OptionChecker label={term} items={selected.labels.map(l => l.term)} />
 								{/if}
-								<button popovertarget="description-dlg" onclick={() => {
+								<button hidden popovertarget="description-dlg" onclick={() => {
 									expandedTerm = i
 									dlg?.showModal()
 								}}>ℹ️</button>
