@@ -679,7 +679,7 @@
                 "etymology": "Greek 'hypo' (under) + 'glossa' (tongue) + 'trigonon' (triangle)."
             },
             {
-                "term": "Glossopharangeal nerve (CN IX)"
+                "term": "Glossophyrangeal nerve (CN IX)"
             },
             {
                 "term": "Vagus nerve (CN X)"
@@ -1177,6 +1177,237 @@
             },
             {
                 "term": "Orbital frontal gyri"
+            }
+        ]
+    },
+    "vasculature": {
+        "title": "Vasculature",
+        "path": "/src/lib/assets/diagrams/vasculature.svg",
+        "labels": [
+            {
+                "term": "Middle cerebral artery"
+            },
+            {
+                "term": "Anterior cerebral artery"
+            },
+            {
+                "term": "Interior carotid artery, supraclinoid segment"
+            },
+            {
+                "term": "Opthalmic artery"
+            },
+            {
+                "term": "Internal carotid artery, cavernous segment"
+            },
+            {
+                "term": "Internal carotid artery, petrous segment"
+            },
+            {
+                "term": "Internal carotid artery, cervical segment"
+            },
+            {
+                "term": "External carotid artery"
+            },
+            {
+                "term": "Common carotid artery"
+            },
+            {
+                "term": "Brachiocephalic artery"
+            },
+            {
+                "term": "Posterior cerebral arteries"
+            },
+            {
+                "term": "Basilar arteries"
+            },
+            {
+                "term": "Vertebral artery, intracranial"
+            },
+            {
+                "term": "Vertebral artery, extracranial"
+            },
+            {
+                "term": "Subclavian artery"
+            },
+            {
+                "term": "Aorta"
+            },
+            {
+                "term": "Carotid foramen"
+            },
+            {
+                "term": "Internal carotid artery"
+            },
+            {
+                "term": "External carotid artery"
+            },
+            {
+                "term": "Common carotid artery"
+            },
+            {
+                "term": "Vertebral artery"
+            },
+            {
+                "term": "Subclavian artery"
+            },
+            {
+                "term": "Brachiocephalic artery"
+            },
+            {
+                "term": "Foramen magnum"
+            },
+            {
+                "term": "Formamina transversaria"
+            },
+            {
+                "term": "Common carotid artery"
+            },
+            {
+                "term": "Subclavian artery"
+            }
+        ]
+    },
+    "inferior_cn": {
+        "title": "Cranial Nerves: Inferior View",
+        "path": "/src/lib/assets/diagrams/inferior_cn.svg",
+        "labels": [
+            {
+                "term": "Longitudinal cerebral fissure"
+            },
+            {
+                "term": "Temporal pole"
+            },
+            {
+                "term": "Lateral cerebral sulcus"
+            },
+            {
+                "term": "Anterior perforated substance"
+            },
+            {
+                "term": "Optic chiasm"
+            },
+            {
+                "term": "Infundibulum"
+            },
+            {
+                "term": "Mammillary body"
+            },
+            {
+                "term": "Midbrain"
+            },
+            {
+                "term": "Pons"
+            },
+            {
+                "term": "Middle cerebellar peduncle"
+            },
+            {
+                "term": "Choroid plexus of 4th ventricle"
+            },
+            {
+                "term": "Hypoglossal nerve (CN XII)"
+            },
+            {
+                "term": "Lateral aperture of 4th ventricle"
+            },
+            {
+                "term": "Olive"
+            },
+            {
+                "term": "Pyramid"
+            },
+            {
+                "term": "Anterior rootlets of C1 nerve"
+            },
+            {
+                "term": "Cerebellum"
+            },
+            {
+                "term": "Spinal cord"
+            },
+            {
+                "term": "Olfactory bulb"
+            },
+            {
+                "term": "Olfactory tract"
+            },
+            {
+                "term": "Optic nerve (CN II)"
+            },
+            {
+                "term": "Optic tract"
+            },
+            {
+                "term": "Oculomotor nerve (CN III)"
+            },
+            {
+                "term": "Trochlear nerve (CN IV)"
+            },
+            {
+                "term": "Trigeminal nerve (CN V), sensory root"
+            },
+            {
+                "term": "Trigeminal nerve (CN V), motor root"
+            },
+            {
+                "term": "Abducens nerve (CN VI)"
+            },
+            {
+                "term": "Facial nerve (CN VII)"
+            },
+            {
+                "term": "Intermediate nerve (CN VII)"
+            },
+            {
+                "term": "Vestibulocochlear nerve (CN VIII)"
+            },
+            {
+                "term": "Glossopharyngeal nerve (CN IX)"
+            },
+            {
+                "term": "Vagus nerve (CN X)"
+            },
+            {
+                "term": "Spinal accessory nerve (CN XI)"
+            }
+        ]
+    },
+    "exit_foramina": {
+        "title": "Cranial Nerves: Exit Foramina",
+        "path": "/src/lib/assets/diagrams/exit_foramina.svg",
+        "labels": [
+            {
+                "term": "Hypoglossal canal"
+            },
+            {
+                "term": "Mandibular fossa"
+            },
+            {
+                "term": "Petrotympanic fissure"
+            },
+            {
+                "term": "External auditory meatus"
+            },
+            {
+                "term": "Foramen magnum"
+            },
+            {
+                "term": "Foramen ovale"
+            },
+            {
+                "term": "Foramen spinosum"
+            },
+            {
+                "term": "Foramen lacerum"
+            },
+            {
+                "term": "Carotid foramen"
+            },
+            {
+                "term": "Jugular foramen"
+            },
+            {
+                "term": "Stylomastoid foramen"
             }
         ]
     }
