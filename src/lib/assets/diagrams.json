@@ -644,95 +644,94 @@
         "path": "/src/lib/assets/diagrams/posterior_coronal_brain_stem.svg",
         "labels": [
             {
-                "term": "Brachium of superior colliculus",
-                "description": "A bridge of white matter fibers connecting the optic tract and the superior colliculus.",
-                "etymology": "Latin 'brachium' (arm)."
+                "term": "Brachium of superior colliculus"
             },
             {
-                "term": "Lateral geniculate nucleus",
-                "description": "A relay center in the thalamus for the visual pathway.",
-                "etymology": "Latin 'genu' (knee), referring to its bent shape."
+                "term": "Lateral geniculate nucleus"
             },
             {
-                "term": "Medial geniculate nucleus",
-                "description": "A part of the auditory thalamus that represents the thalamic relay between the inferior colliculus and the auditory cortex.",
-                "etymology": "Latin 'genu' (knee) + 'medialis' (middle)."
+                "term": "Medial geniculate nucleus"
             },
             {
-                "term": "Brachium of inferior colliculus",
-                "description": "A bundle of auditory fibers connecting the inferior colliculus to the medial geniculate body.",
-                "etymology": "Latin 'brachium' (arm)."
+                "term": "Brachium of inferior colliculus"
             },
             {
-                "term": "Trochlear nerve (CN IV)",
-                "description": "The only cranial nerve to emerge from the dorsal aspect of the brainstem.",
-                "etymology": "Latin 'trochlea' (pulley)."
+                "term": "Trochlear nerve (CN IV)"
             },
             {
-                "term": "Facial colliculus",
-                "description": "An elevation in the rhomboid fossa formed by the fibers of the facial nerve looping over the abducens nucleus.",
-                "etymology": "Latin 'facies' (face) + 'colliculus' (little hill)."
+                "term": "Facial colliculus"
             },
             {
-                "term": "Hypoglossal trigone",
-                "description": "A slight elevation in the floor of the fourth ventricle over the hypoglossal nucleus.",
-                "etymology": "Greek 'hypo' (under) + 'glossa' (tongue) + 'trigonon' (triangle)."
+                "term": "Hypoglossal trigone"
             },
             {
-                "term": "Glossophyrangeal nerve (CN IX)"
+                "term": "Glossopharangeal nerve (CN IX)"
             },
             {
                 "term": "Vagus nerve (CN X)"
             },
             {
-                "term": "Vagal trigone",
-                "description": "A small triangular area in the floor of the fourth ventricle overlying the dorsal motor nucleus of the vagus nerve.",
-                "etymology": "Latin 'vagus' (wandering) + 'trigonon' (triangle)."
+                "term": "Vagal trigone"
             },
             {
-                "term": "Fasciculus cuneatus",
-                "description": "The lateral portion of the dorsal column, carrying sensory information from the upper body.",
-                "etymology": "Latin 'fasciculus' (little bundle) + 'cuneus' (wedge)."
+                "term": "Spinal accessory nerve (CN XI)"
             },
             {
-                "term": "Fasciculus gracilis",
-                "description": "The medial portion of the dorsal column, carrying sensory information from the lower body.",
-                "etymology": "Latin 'fasciculus' + 'gracilis' (slender)."
+                "term": "Fasciculus cuneatus"
             },
             {
-                "term": "Nucleus gracilis",
-                "description": "A medullary nucleus that receives input from the fasciculus gracilis.",
-                "etymology": "Latin 'nucleus' (kernel) + 'gracilis'."
+                "term": "Fasciculus gracilis"
             },
             {
-                "term": "Nucleus cuneatus",
-                "description": "A medullary nucleus that receives input from the fasciculus cuneatus.",
-                "etymology": "Latin 'nucleus' + 'cuneus'."
+                "term": "Dorsal (posterior) columns"
             },
             {
-                "term": "Obex",
-                "description": "The point in the medulla where the fourth ventricle narrows to become the central canal.",
-                "etymology": "Latin 'obex' (barrier/bolt)."
+                "term": "Nucleus gracilis"
             },
             {
-                "term": "Superior cerebellar peduncle",
-                "description": "The primary output tract of the cerebellum to the midbrain.",
-                "etymology": "Latin 'pedunculus' (little foot)."
+                "term": "Nucleus cuneatus"
             },
             {
-                "term": "Anterior medullary velum",
-                "description": "A thin layer of white matter stretching between the superior cerebellar peduncles.",
-                "etymology": "Latin 'velum' (sail/covering)."
+                "term": "Dorsal (posterior) column tubercles"
             },
             {
-                "term": "Inferior colliculus",
-                "description": "Paired structures on the dorsal midbrain involved in auditory processing.",
-                "etymology": "Latin 'colliculus' (little hill)."
+                "term": "Obex"
             },
             {
-                "term": "Superior colliculus",
-                "description": "Paired structures on the dorsal midbrain involved in visual reflexes.",
-                "etymology": "Latin 'colliculus' (little hill)."
+                "term": "Inferior cerebellar peduncle"
+            },
+            {
+                "term": "Middle cerebellar peduncle"
+            },
+            {
+                "term": "Superior cerebellar peduncle"
+            },
+            {
+                "term": "Anterior medullary velum"
+            },
+            {
+                "term": "Inferior colliculus"
+            },
+            {
+                "term": "Superior colliculus"
+            },
+            {
+                "term": "Pineal body"
+            },
+            {
+                "term": "Thalamus"
+            },
+            {
+                "term": "Midbrain"
+            },
+            {
+                "term": "Pons"
+            },
+            {
+                "term": "Medulla"
+            },
+            {
+                "term": "Spinal cord"
             }
         ]
     },
