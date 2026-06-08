@@ -7,9 +7,31 @@
    width="1094.6667"
    height="816"
    viewBox="0 0 1094.6667 816"
+   sodipodi:docname="posterior_coronal_brain_stem.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.2363359"
+     inkscape:cx="234.56409"
+     inkscape:cy="211.10768"
+     inkscape:window-width="1760"
+     inkscape:window-height="701"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g1" />
   <defs
      id="defs1" />
   <g
@@ -505,6 +527,6 @@
        id="text52"><tspan
          id="tspan52"
          x="158.63008"
-         y="223.25716">2</tspan></text>
+         y="223.25716">24</tspan></text>
   </g>
 </svg>
