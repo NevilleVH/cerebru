@@ -1409,5 +1409,101 @@
                 "term": "Stylomastoid foramen"
             }
         ]
+    },
+    "basal_ganglia": {
+        "title": "Basal Ganglia",
+        "path": "/src/lib/assets/diagrams/basal_ganglia.svg",
+        "labels": [
+            {
+                "term": "Thalamus"
+            },
+            {
+                "term": "Globus pallidus"
+            },
+            {
+                "term": "External segment"
+            },
+            {
+                "term": "Internal segment"
+            },
+            {
+                "term": "Ventral pallidum"
+            },
+            {
+                "term": "Subthalamic nucleus"
+            },
+            {
+                "term": "Substantia nigra"
+            },
+            {
+                "term": "Caudate nucleus"
+            },
+            {
+                "term": "Head"
+            },
+            {
+                "term": "Body"
+            },
+            {
+                "term": "Tail"
+            },
+            {
+                "term": "Caudate nucleus"
+            },
+            {
+                "term": "Head"
+            },
+            {
+                "term": "Body"
+            },
+            {
+                "term": "Tail"
+            },
+            {
+                "term": "Nucleus accumbens"
+            },
+            {
+                "term": "Putamen"
+            },
+            {
+                "term": "Cell bridge"
+            },
+            {
+                "term": "Lateral ventricle"
+            },
+            {
+                "term": "Thalamus"
+            },
+            {
+                "term": "External segment"
+            },
+            {
+                "term": "Internal segment"
+            },
+            {
+                "term": "Globus pallidus"
+            },
+            {
+                "term": "Ventral pallidum"
+            },
+            {
+                "term": "Subthalamic nucleus"
+            },
+            {
+                "term": "Substantia nigra"
+            },
+            {
+                "term": "Internal capsule"
+            },
+            {
+                "term": "Caudate nucleus"
+            },
+            {
+                "term": "Putamen"
+            },
+            {
+                "term": "Nucleus accumbens"
+            }
+        ]
     }
 }
